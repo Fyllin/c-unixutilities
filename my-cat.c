@@ -35,8 +35,11 @@ int main(int argc, char *argv[]) {
             line = getline(&buffer, &bufferSize, input);
 
             //Indicating end of file
-            if (buffer == NULL) break;
-            if (line == -1) break;
+            if (line == -1) {
+        
+        	free(buffer);
+        	break;
+	        }
 
             //printing the line
             fprintf(stdout, "%s", buffer);
