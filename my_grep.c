@@ -1,3 +1,10 @@
+/*
+ * CT30A3370 Käyttöjärjestelmät ja systeemiohjelmointi
+ * Project 2: Unix Utilities
+ * Creator: Ville Felin
+ *
+ */
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
